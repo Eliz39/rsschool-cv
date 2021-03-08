@@ -1,0 +1,88 @@
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 26em
+
+}
+div.block3 {
+    margin: auto
+    /* position: absolute;
+   top: 50%;
+   transform: translate(0, -50%)
+   left: 50%;
+    margin-right: -50%;
+    justify-content: center; */
+}
+body{
+    text-align: center;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    background-color: azure;
+}
+
+
+
+h1{
+    text-align: center;
+}
+.cod {
+    background-color: rgb(191, 243, 229);
+}
+.image {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: cornflowerblue;
+}
+
+.personal_item{
+    list-style: none;
+}
+
+.skill_item{
+    list-style: none;
+}
+
+.strengths_item{
+    list-style: none;
+}
+
+.lang_item{
+    list-style: none;
+}
+
+.education_item{
+    list-style: none;
+}
+
+.footer{
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    width: 100px;
+    height: 130px;
+}
+
+.github{
+    margin: 0;
+}
+
+.italic{
+    font-style: italic;
+}
