@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: 0;
 }
@@ -65,3 +65,319 @@ body {
 }
 
 /* header styles end*/
+
+.main {
+    max-width: 1380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main_content {
+    background-color: #FFFFFF;
+    max-width: 830px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 55px 90px;
+    /* margin: 40px 40px 40px 0px; */
+    margin-top: 40px;
+}
+.sidebar {
+    background-color: #1E2939;
+    max-width: 370px;
+    margin-top: 40px;
+    padding-top: 40px;
+    /* margin-left: 40px; */
+}
+.photo {
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.sidebar_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contacts{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.contact_letter {
+        /* C: E: */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #FFFFFF;
+    width: 26px;
+    height: 48px;
+    margin-right: 10px;
+}
+.data {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    opacity: 0.5;
+    width: 157px;
+    height: 48px;
+}
+.tech_skills_list {
+    padding: 0;
+    margin-left: 17px;
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.tech_skills_text, .soft_skills_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.tech_skills_item {
+    color: #FB6D3A;
+    margin-bottom: 3px;
+}
+.position_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    margin-bottom: 20px;
+}
+.about_user {
+    width: 525px;
+    /* margin: 0px 340px 40px 0px; */
+    margin-bottom: 25px;
+}
+.surname_title{
+    font-family: Montserrat;
+    color: #000000;
+}
+.about_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #595959;
+    margin-bottom: 45px;
+}
+.projects {
+    margin-bottom: 50px;
+}
+.project_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+    margin-bottom: 10px;
+}
+.project_list_number {
+    padding: 0;
+    margin-left: 15px;
+}
+.project_list, .project_bracket {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #595959;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #000000;
+}
+.project, .project_link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #595959;
+    text-decoration: none;
+}
+.project_link {
+    font-weight: 600;
+}
+.position {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #000000;
+    margin-bottom: 10px;
+}
+.place {
+    color: #FB6D3A;
+}
+.country {
+    color: #A8A8A8;
+}
+.line {
+    color: black;
+}
+.time {
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+.work_list_number {
+    padding: 0;
+    margin-left: 15px;
+}
+.work_list_item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #595959;
+}
+.work_list_item:last-child {
+    margin-bottom: 20px;
+}
+.education {
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+.major {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    margin-bottom: 10px;
+}
+.git_link{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 171% */
+    color: #A8A8A8;
+}
+.code{
+    color: #ff9771;
+    display: none;
+}
+#hidden.open {
+    display: block;
+}
+.reveal {
+    cursor: pointer;
+    color: #b25c3d;
+    text-decoration: underline;
+}
+.video-player {
+    width: 580px;
+    height: 360px;
+}
+
+.footer{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+.footer_container{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.logo{
+    width: 170px;
+}
+.logo-pic{
+    display: flex;
+    column-gap: 15px;
+}
+.year{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    padding-top: 1.5rem;
+}
+.footer_social{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_list-social{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.footer_link:active, .footer_link:hover, .footer_link:focus{
+    opacity: 85%;
+}
+.copyright{
+    display:block;
+    margin-right: 50px;
+}
+.footer_item-social{
+    display:block;
+    margin-right: 40px;
+}
+.footer_logo-link-diabled{
+    pointer-events: none;
+    cursor: default;
+}
+.active{
+    color: #00a092;
+}
+.footer_link{
+    /* About */
+/* Btn text */
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+}
+.footer-social-pic{
+    width: 45px;
+    height: 45px;
+}
